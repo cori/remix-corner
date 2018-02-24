@@ -4,7 +4,7 @@ Makes a Glitch logo banner in the corner like GitHub's "Fork me on GitHub" banne
 
 Simply include `<script src="https://remix-corner.glitch.me/glitch-corner.js"></script>` in any html file you'd like to show the remix corner on.
 
-If you're using the README.md file as your project's homepage (rendered to html by Showdown) then adding this snippet will add the corner banner to the rendered html:
+If you're using the README.md file as your project's homepage (which is rendered to html by [Showdown](http://showdownjs.com/)) then adding this snippet will add the corner banner to the rendered html:
 ```
 var filterGlitchCornerExt = {
   type: 'output',
