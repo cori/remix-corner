@@ -29,5 +29,5 @@ function qs (term, url = '') {
     }
   }
   
-  return Number.parseInt(qs) === NaN ? 40 : qs;
+  return isNaN(Number.parseInt(qs)) ? 40 : qs;
 }
